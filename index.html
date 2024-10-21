@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <h1>
+        WELCOME TO CAR RENTAL SYSTEM
+    </h1>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vehicle Rental Management</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Vehicle Rental Management</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="vehicles.html">Vehicles</a>
+            <a href="booking.html">Book Now</a>
+            <a href="contact.html">Contact</a>
+            <a href="review.html">Review</a>
+        </nav>
+    </header>
+   <!-- Existing Section -->
+   <section class="hero-section" style="background-image: url('happy.webp'); background-size: cover; background-position: center; height: 600px; position: relative;">
+    <div class="container bg-primary">
+    <center>
+    <h2>Find Your Ideal Vehicle</h2>
+    <p>We provide a wide range of vehicles for rent at affordable prices!</p>
+    <a href="vehicles.html">View Available Vehicles</a>
+</div>
+</center>
+
+<!-- Login/Sign-In Box Section -->
+<div style="display: flex; justify-content: center; margin-top: 40px;">
+    <div style="width: 300px; padding: 20px; border: 1px solid #ccc; border-radius: 10px; background-color: #f9f9f9;">
+        <h3 style="text-align: center;">Login or Sign Up</h3>
+        <form action="/login" method="POST">
+            <div style="margin-bottom: 15px;">
+                <label for="email" style="display: block; margin-bottom: 5px;">Email:</label>
+                <input type="email" id="email" name="email" style="width: 100%; padding: 8px; border-radius: 5px; border: 1px solid #ccc;" required>
+            </div>
+            <div style="margin-bottom: 15px;">
+                <label for="password" style="display: block; margin-bottom: 5px;">Password:</label>
+                <input type="password" id="password" name="password" style="width: 100%; padding: 8px; border-radius: 5px; border: 1px solid #ccc;" required>
+            </div>
+            <div style="margin-bottom: 15px;">
+                <a href="#" style="font-size: 12px; color: #007BFF;">Forgot Password?</a>
+            </div>
+            <div style="text-align: center;">
+                <button type="submit" style="padding: 10px 20px; background-color: #4CAF50; color: white; border: none; border-radius: 5px; cursor: pointer;">Login</button>
+            </div>
+        </form>
+        <p style="text-align: center; margin-top: 15px;">Don't have an account? 
+            <a href="signup.html" style="color: #007BFF;">Sign Up</a>
+        </p>
+    </div>
+</div>
+</div>
+</section>
+</body>
